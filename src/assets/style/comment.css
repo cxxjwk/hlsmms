@@ -1,0 +1,139 @@
+
+/* 公共样式 */
+body{
+  font-size: 14px;
+}
+mt10{
+  margin-top: 10px;
+}
+.el-aside{
+  min-height: 100%; 
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 修改table不要框架 */
+.el-button--mini{
+  border: none;
+  background-color: transparent;
+  
+}
+.el-button:hover{
+  border: none;
+  background-color: transparent;
+}
+.el-tag--medium{
+  border: none;
+  background-color: transparent;
+  color: #333;
+}
+#mybox{
+  width: 46px;
+  height: 26px;
+  background-color:#69AD00;
+  border: 1px solid greenyellow;
+  border-radius: 4px;
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 26px;
+}
+/* 左边样式 */
+.lefttitle h3{
+  line-height: 50px;
+  height: 50px;
+  font-size:22px;
+  color: #fff;
+}
+.lefttitle p{
+  line-height: 30px;
+  height: 30px;
+  font-size: 12px;
+  color: #fff;
+  text-align: right;
+  margin-right: 20px;
+}
+.el-aside {
+   background: url("../img/leftBG.png");
+    color: #ccc;
+    text-align: center;
+    line-height: 200px;
+  }
+ 
+  .el-menu{
+    background: transparent;
+    color: #fff;
+  }
+  .el-submenu__title{
+    background: url("../img/menuBG.png");
+    line-height: 33px;
+    width: 200px;
+    height: 33px;
+    margin:5px 0 0 29px;
+    text-align: right;
+    color: #fff;
+    border-radius: 4px 0 0 4px;
+  }
+  .el-submenu__title i{
+    display: none;
+  }
+  .el-submenu .el-menu-item{
+    line-height:30px;
+    width: 200px;
+    height: 30px;
+    color: #ccc;
+    margin:5px 0 0 29px;
+    text-align: right;
+    padding-right: 20px;
+  }
+  .el-menu-item:hover,.el-menu-item:focus{
+    color: #ccc;
+    margin-top: 5px;
+  }
+  .el-menu-item.is-active{
+    color:#ccc;
+  }
+
+  /* --------------------------------------右侧 */
+  .el-header ,.el-footer {
+    background-color:#F9F9F9;
+    color: #333;
+    width: 100%;
+   
+  }
+  .el-header h2{
+    margin:20px 0 0 0;
+    line-height: 50px;
+    text-align: left;
+   
+  }
+  .el-header p{
+    margin: 0;
+    line-height: 50px;
+    text-align: left;
+   
+  }
+  .el-main{
+    height:500px;
+    overflow-y: scroll;
+  }
+  
+  .el-card__header {
+    background:linear-gradient(#ccc,#fff)
+  }
+  .el-alert--success, .el-alert--info{
+    margin:5px 0 5px 0;
+    background-color: #DBE3FF;
+  }
+
+ /* 解决布局混乱 */
+  #mainContent{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  mainContent>*{
+    width: 100%;
+     max-height: 450px; 
+  }
