@@ -10,7 +10,7 @@
     <el-main>
      <el-card class="box-card">
     <div slot="header" class="clearfix">
-    <span class="sytitle">商品管理</span>
+    <span class="sytitle">商品de管理</span>
     </div>
      <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm" :label-position="labelPosition">
         <el-form-item label="所属分类" prop="region">
