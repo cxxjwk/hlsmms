@@ -1,3 +1,3 @@
 <template>
-      <el-footer>&copy;copyright&emsp;华联超市管理</el-footer>
+      <el-footer>&copy;copyright&emsp;华联超市管理xt</el-footer>
 </template>
