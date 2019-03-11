@@ -4,7 +4,7 @@
     <div class="lefttitle">
     <h3>华联超市管理系统</h3>
     <p>您好 adimin</p>
-    <p>管理首页 | 退出系统</p>
+    <p>管理首页 |</p>
     </div>
     <el-menu
       :default-active="$route.path"
